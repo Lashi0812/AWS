@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+  catPics:
+    Type: AWS::S3::Bucket
+Outputs:
+  catPicsBucketName:
+    Description: Bucket name for cat 
+    Value: !Ref catPics
